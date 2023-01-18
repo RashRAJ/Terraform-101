@@ -25,5 +25,18 @@ resource "aws_instance" "app_server" {
   tags = {
     Name = var.instance_name
 #    Name = "TestAppServerInstance"
+    
+    
+ #for looping edit example to the name of istance   
+resource "aws_instance" "example" {
+  count = 3
+  ami           = "ami-0ff8a91507f77f867"
+  instance_type = "t2.micro"
+
+  for_each = toset(range(0, count))
+  tags = {
+    Name = "example-${each.value}"
+  }
+}
   }
 }

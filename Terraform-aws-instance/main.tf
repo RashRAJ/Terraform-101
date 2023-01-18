@@ -10,7 +10,7 @@ terraform {
   required_version = ">= 1.2.0"
 }
 
-# providers block configures the specific proider in this case aws
+# providers block configures the specific provider in this case aws
 
 provider "aws" {
   region = "us-east-1"

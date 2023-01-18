@@ -5,6 +5,8 @@ Terraform Hands-on Learning
 file 2
 
 ## creating a docker container using terrafrom 
-to activate the file run `terraform init`
-use `terraform apply ` to apply changes
-and `terraform destroy` to to terminate the container
+To activate the file run `terraform init`
+
+Use `terraform apply ` to apply changes
+
+And `terraform destroy` to to terminate the container

@@ -1,5 +1,8 @@
 # Creating an Ec2 instance with aws 
 
+Basic configuration for creating aws instance, and playing around with terraform command
+
+
 ## Perequisite
 
 - install aws cli  on your terminal  using the command below
@@ -21,6 +24,11 @@ Use `terraform fmt` to format your terraform file
 Use `terraform validate ` to ensure your configurations are syntatically valid and internnally consistent.
 
 `terraform apply`
+
+
+# Adding a `variable.tf` file
+we created a variable file that defines the name of the instance and affected the change on the `main.tf` file (note the tags section), you can also make ths changes  directly from the command line using `terraform apply -var "instance_name=YetAnotherName"`
+
 
 and lastly do not forget `Terraform Destroy`
   

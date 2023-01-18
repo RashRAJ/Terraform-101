@@ -30,5 +30,8 @@ Use `terraform validate ` to ensure your configurations are syntatically valid a
 we created a variable file that defines the name of the instance and affected the change on the `main.tf` file (note the tags section), you can also make ths changes  directly from the command line using `terraform apply -var "instance_name=YetAnotherName"`
 
 
+
+
+# Adding an output file
 and lastly do not forget `Terraform Destroy`
   

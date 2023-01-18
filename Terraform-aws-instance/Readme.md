@@ -32,6 +32,14 @@ we created a variable file that defines the name of the instance and affected th
 
 
 
-# Adding an output file
-and lastly do not forget `Terraform Destroy`
+# Adding an output.tf file and how it works
+
+We added some configurations to return some output from our instance in our `outputs.tf` file
+
+run `terraform apply` agian after creating the `outputs.tf` file Respond to the confirmation prompt with yes. and in this case you will be given the `ip adress` and the `instance id`
+
+You can also use `terraform output` to get the output at any given time
+
+
+And lastly do not forget `Terraform Destroy` when you are all done!
   

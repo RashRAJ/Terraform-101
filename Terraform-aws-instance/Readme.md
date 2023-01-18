@@ -1,4 +1,4 @@
-# Creating an Ec2 instance with aws 
+# Creating an AWS Ec2 instance with Terraform
 
 Basic configuration for creating aws instance, and playing around with terraform command
 

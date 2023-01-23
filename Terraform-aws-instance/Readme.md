@@ -11,8 +11,13 @@ unzip awscliv2.zip
 sudo ./aws/install`
 
 - To use your IAM credentials to authenticate the Terraform AWS provider, set the AWS_ACCESS_KEY_ID environment variable.
+   
+   run `aws configure` and set the following
+
   `export AWS_ACCESS_KEY_ID=` enter your access key id
+  
   `export AWS_SECRET_ACCESS_KEY=` Set secret key
+  
   
 ## Next steps
 `terraform init`
